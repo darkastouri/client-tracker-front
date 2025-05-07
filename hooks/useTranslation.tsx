@@ -631,6 +631,24 @@ const en = {
   "purchase": "purchase",
 
   "More": "More",
+
+  "Delete Client": "Delete Client",
+  "This action cannot be undone. This will permanently delete the client and all associated data.": "This action cannot be undone. This will permanently delete the client and all associated data.",
+  "Please type": "Please type",
+  "to confirm": "to confirm",
+  "Warning: All client data including orders and payments will be permanently deleted.": "Warning: All client data including orders and payments will be permanently deleted.",
+  "Deleting...": "Deleting...",
+
+  "Day of the month when payment is due (1-31)": "Day of the month when payment is due (1-31)",
+  "Add tags to categorize this client": "Add tags to categorize this client",
+  "No tags added":"No tags added",
+  "Payment Information": "Payment Information",
+  "Edit the client's payment details":"Edit the client's payment details",
+  "Edit the client's basic information": "Edit the client's basic information",
+  "Edit the client's location details":"Edit the client's location details",
+  "Basic Information":"Basic Information",
+  "Add a tag...": "Add a tag...",
+  "Add": "Add"
 }
 
 // Arabic translations
@@ -1233,7 +1251,7 @@ const ar = {
   "Reason for Cancellation": "سبب الإلغاء",
   "The installment has been cancelled successfully.": "تم إلغاء القسط بنجاح.",
   "The installment has been deferred successfully.": "تم تأجيل القسط بنجاح.",
-
+  // Other missing client page elements
   
   // Orders page - Advance payment dialog
   "Record Advance Payment": "تسجيل دفعة مقدمة",
@@ -1263,6 +1281,23 @@ const ar = {
   "Add new client": "إضافة عميل جديد",
   "More": "أكثر",
   
+  "Delete Client": "حذف العميل",
+  "This action cannot be undone. This will permanently delete the client and all associated data.": "لا يمكن التراجع عن هذا الإجراء. سيؤدي هذا إلى حذف العميل وجميع البيانات المرتبطة به بشكل دائم.",
+  "Please type": "الرجاء كتابة",
+  "to confirm": "للتأكيد",
+  "Warning: All client data including orders and payments will be permanently deleted.": "تحذير: سيتم حذف جميع بيانات العميل بما في ذلك الطلبات والمدفوعات بشكل دائم.",
+  "Deleting...": "جاري الحذف...",
+
+"Day of the month when payment is due (1-31)": "يوم الشهر الذي يستحق فيه الدفع (1-31)",
+  "Add tags to categorize this client": "أضف علامات لتصنيف هذا العميل",
+  "No tags added": "لم تتم إضافة علامات",
+  "Payment Information": "معلومات الدفع",
+  "Edit the client's payment details": "تعديل تفاصيل دفع العميل",
+  "Edit the client's basic information": "تعديل المعلومات الأساسية للعميل",
+  "Edit the client's location details": "تعديل تفاصيل موقع العميل",
+  "Basic Information": "المعلومات الأساسية",
+  "Add a tag...": "...أضف علامة",
+  "Add": "أضافة"
 }
 
 export function useTranslation() {
